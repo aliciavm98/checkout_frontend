@@ -1,3 +1,13 @@
+// src/pages/index.tsx
+import AddCountry from "@/components/AddCountry";
+import CountriesList from "@/components/CountriesList";
+
 export default function Home() {
-  return <h1>Hello, wilder !</h1>;
+  return (
+    <div>
+      <h1>Countries</h1>
+      <AddCountry />
+      <CountriesList />
+    </div>
+  );
 }
